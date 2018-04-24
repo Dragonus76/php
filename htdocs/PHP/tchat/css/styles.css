@@ -1,0 +1,170 @@
+html{
+	padding: 0;
+	margin: 0; 
+	font-size: 16px; 
+	font-family: arial; 
+}
+
+main{
+	width : 80%;
+	margin: 50px auto;
+	background: silver; 
+	box-shadow : 0px 2px 4px grey;
+	padding: 40px;
+	overflow: hidden;
+}
+
+.connexion, .inscription
+{
+	
+	width: 35%;
+	margin: 20px 5%;
+	min-height: 300px;
+	background: grey;
+	border-radius: 10px; 
+	padding: 10px; 
+	color: white; 
+	display: inline-block;
+	float: left;
+}
+
+input, textarea{
+	width: 90%;
+	height: 40px; 
+	text-indent: 10px; 
+	background: rgb(212, 199, 199); 
+	border : none;
+	border: 2px solid silver;
+	color: white; 
+	margin-bottom: 10px;
+}
+
+textarea{ 
+	resize: none;
+	height: 100px;	
+}
+
+input:focus, textarea:focus{
+	background: silver; 
+	color: black;
+	border: 2px solid white;
+}
+
+input[type='submit']{
+	border: 2px solid #EbAEDE;
+	border-radius: 4px;
+	background: transparent;
+	color: #EbAEDE;
+	text-transform: uppercase;
+	text-align: center; 
+	font-weight: bold;
+}
+
+form.tchat input[type='submit']{
+	border: 2px solid white;
+	border-radius: 4px;
+	background: transparent;
+	color: white;
+	text-transform: uppercase;
+	text-align: center; 
+	font-weight: bold;
+}
+
+input[type='submit']:hover{
+	cursor: pointer;
+	border: 2px solid #EbAEDE;
+	background: #EbAEDE;
+	color: grey;
+	transition: 0.5s;
+}
+
+form.tchat  input[type='submit']:hover{
+	cursor: pointer;
+	border: 2px solid white;
+	background: white;
+	color: black;
+	transition: 0.5s;
+}
+
+.comment{
+	display: inline-block;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+.comment_in{
+	padding: 10px;
+    background: #00c2ff;
+    border: 3px solid white;
+    border-radius: 10px;
+	float: left;
+	color: white;
+	width: 90%;
+}
+
+.user_connecte{
+	margin-left: 20%;
+}
+
+.user_connecte .comment_in{
+	padding: 10px;
+    background: #dca117;
+    border: 3px solid rgb(179, 11, 141);
+    border-radius: 10px;
+	float: left;
+	color: rgb(179, 11, 141);
+}
+
+.comment_in .img img{
+	float: left;
+	height: 25px; 
+	margin-right: 10px;
+}
+
+.comment_in .content{
+	float: left; 	
+	margin-left: 10px;
+	clear: both;
+}
+
+.comment_in .img .auteur{
+	color: grey;
+	font-size: 10px;
+	font-style: italic;
+	float: left;
+}
+
+.triangle{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent white transparent transparent;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+.user_connecte .auteur{
+	color: white !important;
+}
+
+.user_connecte .triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent rgb(179, 11, 141);
+}
+
+hr {
+	border: 3px dashed white;
+}
+
+.erreur{
+
+
+	padding: 5px; 
+	color: white;
+	background: red;
+}

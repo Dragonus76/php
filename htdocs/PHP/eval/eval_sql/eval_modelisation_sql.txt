@@ -1,0 +1,19 @@
+EVALUATION MODELISATION BDD
+
+Réaliser un MCD (modele de conceptualisation de données) pour un site d'un réseau de galeries d'art puis le convertir en schéma relationnel. Remettre un PDF nommé « prenom_nom_mcd_galerie.pdf »
+
+Un réseau de galeries d'art souhaite un site Internet et nous devons modéliser sa base de données.
+Ce site permettra de rechercher des œuvres d'artistes selon plusieurs critères 
+
+-> Nom de l'artiste
+-> Nom de l'œuvre
+-> Courant artistique
+-> Catalogue d'une galerie du réseau
+
+Type d’œuvre (peinture, sculpture, installation, photo, etc.)
+
+Les œuvres seront présentées sur une page indiquant leur référence, nom, la date de création, le(s) nom(s) du/des artiste(s) créateur(s) de l’œuvre, le courant artistique auquel elle appartient, le nom et l'adresse de la galerie dans laquelle ont peut la voir, et une ou plusieurs photos de l'œuvre.
+
+Les artistes auront une page de présentation indiquant leur nom, prénom, leur photo, leur(s) nationalité(s), leur date de naissance et de mort (si il y a lieu). Une petite bio ainsi que la liste des divers courants artistiques auxquels ils ont appartenus, au minimum 1.
+
+Les galeries seront présentées dans une page indiquant leur nom, leur(s) adresse(s), leurs coordonnées : tél, mobile, fax, email - plusieurs possibles par galerie, l’url du site, photo(s) de la galerie, ainsi que les artistes et les courants artistiques qu'elles représentent. Le menu du site permettra d'afficher soit toutes les œuvres présentent dans la galerie, soit toutes les œuvres de la galerie appartenant à tel courant, soit toutes les œuvres que possède la galerie d'un même peintre, soit toutes les œuvres de tel type.
